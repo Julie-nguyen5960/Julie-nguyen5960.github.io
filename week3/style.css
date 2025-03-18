@@ -1,26 +1,61 @@
+/*========================== My design rationale for the typography and the colour palette 
+
+
+
+======================*/
+
 * {
   color: hotpink;
 }
 
 h1 {
-  color: limegreen;
+  color: rgb(255, 179, 144);
+  /* font-family: "Big-Shoulders-Stencils"; */
+}
+
+body {
+  background-color: rgb(68, 68, 39);
+  color: rgb(156, 18, 18);
+  font-size: 1.7rem;
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+section {
+  text-align: center;
+  border: 1px solid black;
 }
 
 li {
   color: blueviolet;
 }
 
+.blue-color {
+  color: blue;
+} /* class blue */
+
+.yellow-color {
+  color: yellow;
+}
+
+#second-para {
+  color: chocolate;
+}
+
 /* h1 {
     color: rgb(29, 29, 158);
    
-  }
-h3 {
-    color: red;
-  } 
+  } */
 
-p {
-    /* color:brown; */
-/* font-weight: bold; 
+h2 h3 {
+  color: red;
+}
+
+/* p { 
+     color:brown; 
+    font-weight: bold; 
 } 
 */
 
