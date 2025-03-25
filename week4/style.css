@@ -1,0 +1,39 @@
+body {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+p {
+  border: 1px solid rgb(231, 116, 139);
+  border-bottom: 3px dashed rgb(78, 162, 231);
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
+  margin: 0 auto;
+  /* horizontal centering */
+  /* Top Right Bottom Left */
+  /* padding:20px 30px 20px 30px */
+  /* padding-left: 20px;
+  padding-bottom: 30px; */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.vcenter {
+  line-height: 260px;
+  /* height 300 padding 20 300-20-20 */
+}
+
+span {
+  color: blueviolet;
+  /* display: block; */
+  /* display: none; */
+}
