@@ -37,3 +37,11 @@ span {
   /* display: block; */
   /* display: none; */
 }
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+}
