@@ -1,0 +1,30 @@
+body {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .header {
+    padding: 40px;
+    text-align: center;
+    background: #3d8eeb;
+    color: white;
+
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-family: Chewy;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+
