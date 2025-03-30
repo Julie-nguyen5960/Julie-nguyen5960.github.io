@@ -13,6 +13,18 @@ body {
     color: rgb(255, 255, 255);
   }
 
+  .first {
+    background-color:#a290aa;
+    color: #ffffff;
+    font-size:1.7rem;
+    padding: 10px;
+    width: 1700px;
+    height:45px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+
   h1 {
     font-size: 3rem;
     font-family: Chewy;
@@ -27,28 +39,36 @@ body {
     margin: 0 auto;
   }
 
-  .first {
-    background-color:#a290aa;
-    color: #ffffff;
-    font-size:1.7rem;
-    padding: 10px;
-    width: 1700px;
-    height:45px;
-    margin: auto;
-    margin-top: 30px;
+  h4 {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    /* padding-top: 30px; */
+    /* text-align: start; */
+    /* padding-left: 200px; */
+    color: blue;
+
   }
+
+
 
   h5 {
     font-weight: bolder;
     font-size: 1.3rem;
     padding-top: 30px;
     text-align: start;
-    padding-left: 150px;
+    padding-left: 200px;
+    color: blue;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+
+
   }
 
   .img1 {
   float: right;
-  padding: 10px;
+  padding: 20px;
   margin-right: 100px;
   }
 
@@ -59,6 +79,7 @@ margin-top: 10px;
 margin-left: 250px;
 font-size: 1.1rem;
 margin-bottom: 40px;
+color: rgb(32, 32, 32);
 }
 
 .list {
@@ -69,3 +90,31 @@ margin-left: 300px;
 
 }
 
+.soccer {
+float: left;
+margin-left: 250px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+.basketball {
+float: right;
+padding:15px;
+margin-right: 400px;
+margin-bottom: 50px;
+
+}
+
+.column {
+  width:50%;
+  float:left
+  
+}
+
+.row {
+  content:"";
+  display: table;
+  clear: both;
+  margin-bottom: 10;
+  margin-left: 150px;
+}
