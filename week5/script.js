@@ -84,3 +84,24 @@ console.log("Hello", myNewName, myCity);
   let a = 10;
   console.log("Hello", a);
 }
+
+function whatIsMyGrade(marks) {
+  if (marks < 40) {
+    console.log("sorry you failed");
+  } else if (marks > 80) {
+    console.log("you got HD");
+    //console/log("you got HD");
+    return "HD";
+  } else {
+    return "pass";
+  }
+}
+
+let myMarks = 54;
+let myGrade = whatIsMyGrade(myMarks);
+console.log(myGrade);
+let total = add(10, 20);
+console.log(total);
+total = add(a, b);
+console.log(total);
+total = subtract(a, b);
