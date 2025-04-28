@@ -16,17 +16,6 @@
       <h1>Music for relaxation & study</h1>
     </header>
 
-    <!-- Navigation Section -->
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Videos</a></li>
-        <li><a href="#">Music</a></li>
-        <li><a href="#">Playlists</a></li>
-        <!-- Add or remove navigation items as needed -->
-      </ul>
-    </nav>
-
     <!-- Main Content Section -->
     <main class="container">
       <!-- Media Player Section -->
@@ -47,6 +36,19 @@
               height="24"
             />
           </button>
+
+          <button onclick="increaseVolume()">
+            <img src="https://img.icons8.com/ios-glyphs/30/high-volume--v1.png" alt="Volume Up" width="24" height="24">
+          </button>
+          
+          <!-- Decrease Volume Button -->
+          <button onclick="decreaseVolume()">
+            <img src="https://img.icons8.com/ios-glyphs/30/low-volume.png" alt="Volume Down" width="24" height="24">
+          </button>
+
+          <button id="restart-btn" onclick="restartVideo()">
+            <img src="https://img.icons8.com/ios-glyphs/30/restart--v1.png" alt="Restart Button" width="24" height="24" />
+          </button>
           <!-- add the missing buttons or functionality here -->
           <div class="progress-bar">
             <span id="progress-bar-fill"></span>
@@ -57,7 +59,7 @@
       <!-- Additional Content Section -->
       <section>
         <h2>Additional Content</h2>
-        <p>This is where you can showcase any other relevant content.</p>
+        <p>T.</p>
         <!-- Add more content as needed -->
       </section>
     </main>
