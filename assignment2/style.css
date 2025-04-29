@@ -1,9 +1,9 @@
 :root {
   --primary-bg-color: #fcddf9;
   --text-color: #000000;
-  --main-bg-color: #724577;
+  --main-bg-color: #0e5836a8;
   --main-text-color: #fff;
-  --main-btn-bg-color: #775079;
+  --main-btn-bg-color: #538562;
 }
 
 body,
@@ -26,6 +26,13 @@ body {
 }
 
 /* Add additional styles as needed */
+.p-one {
+  border-style: solid;
+  border-color: rgb(133, 124, 124);
+  width: fit-content;
+  background-color: #bebebe;
+  margin-top: 20px;
+}
 
 /* Create a container for the main content */
 .container {
@@ -102,6 +109,7 @@ h2 {
   color: black;
   margin: 20px;
   font-size: 25px;
+  font-family: Delicious Handrawn;
   text-align: center;
 }
 
