@@ -7,8 +7,8 @@
     <title>Interactive media assignment 2</title>
     <!-- add the font family of your choice -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Delicious+Handrawn&family=Knewave&display=swap');
-      </style>      
+      @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Playpen+Sans:wght@100..800&display=swap');
+      </style>                 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
@@ -25,7 +25,7 @@
       <div class="media-player">
         <video id="custom-video-player" controls loop>
           <source
-            src="https://www.dropbox.com/scl/fi/74cgw002meml4xn3u87ad/media-player.mp4?rlkey=rzp9nbnrrio2muskbghsd94qj&st=k1hfapbn&dl=1"
+            src="https://www.dropbox.com/scl/fi/ikk5w49ko29gvc2e9njk2/lofi.mp4?rlkey=rmhlfdxu21q90k5p3099733er&st=65lol7z3&dl=1"
             type="video/mp4"
           />
         </video>
@@ -39,7 +39,14 @@
               height="24"
             />
           </button>
-
+          <button id="restart-btn" onclick="restartVideo()">
+            <img src="https://img.icons8.com/ios-glyphs/30/restart--v1.png" alt="Restart Button" width="24" height="24" />
+          </button>
+          <!-- add the missing buttons or functionality here -->
+          <div class="progress-bar">
+            <span id="progress-bar-fill"></span>
+          </div>
+          
           <button onclick="increaseVolume()">
             <img src="https://img.icons8.com/ios-glyphs/30/high-volume--v1.png" alt="Volume Up" width="24" height="24">
           </button>
@@ -48,17 +55,15 @@
           <button onclick="decreaseVolume()">
             <img src="https://img.icons8.com/ios-glyphs/30/low-volume.png" alt="Volume Down" width="24" height="24">
           </button>
-
-          <button id="restart-btn" onclick="restartVideo()">
-            <img src="https://img.icons8.com/ios-glyphs/30/restart--v1.png" alt="Restart Button" width="24" height="24" />
-          </button>
-          <!-- add the missing buttons or functionality here -->
-          <div class="progress-bar">
-            <span id="progress-bar-fill"></span>
-          </div>
         </div>
       </div>
     </div>
+
+    <section>
+      <p>
+         ♦ Music: <a href="https://www.youtube.com/watch?v=gdJYxSwvUWE" target="_blank">massobeats - noon</a></p>
+        <p> ♦ Gif sourced from <a href="https://64.media.tumblr.com/4734a95434dae031db7592d38f53325e/c852cd6b0b36d1f8-a9/s1280x1920/30d1ef996b6e0f93f9480f0c11a91f62c9a282c4.gif" target="_blank">Miena on Tumblr</a></p>
+    </section>
 
       <!-- Additional Content Section -->
       <section>

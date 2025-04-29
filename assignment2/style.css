@@ -1,14 +1,25 @@
 :root {
   --primary-bg-color: #fcddf9;
-  --text-color: #000000;
-  --main-bg-color: #0e5836a8;
-  --main-text-color: #fff;
-  --main-btn-bg-color: #538562;
+  --text-color: #3b3b3b;
+  --main-bg-color: #432D57ff;
+  --main-text-color: #ffffff;
+  --main-btn-bg-color: #BB95DBff;
 }
 
 body,
-h1,
-p,
+
+h1 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+
+p {
+color: rgb(34, 34, 34);
+font-size: 17px;
+
+
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -28,9 +39,9 @@ body {
 /* Add additional styles as needed */
 .p-one {
   border-style: solid;
-  border-color: rgb(133, 124, 124);
+  border-color: #6F498Fff;;
   width: fit-content;
-  background-color: #bebebe;
+  background-color: rgb(124, 81, 160);;
   margin-top: 20px;
 }
 
@@ -106,10 +117,10 @@ footer {
 }
 
 h2 {
-  color: black;
-  margin: 20px;
-  font-size: 25px;
-  font-family: Delicious Handrawn;
+  color: rgb(54, 50, 50);
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: Caveat Brush;
   text-align: center;
 }
 
@@ -125,8 +136,8 @@ textarea {
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #3c1f42;
+  padding: 1px 20px;
+  background-color: #764580;
   color: white;
   border: none;
   cursor: pointer;
@@ -141,3 +152,10 @@ button:hover {
   font-style: italic;
   color: rgb(255, 255, 255);
 }
+
+/* CSS HEX
+--thulian-pink: #C36A90ff;
+--african-violet: #CD89C3ff;
+--wisteria: #BB95DBff;
+--english-violet: #432D57ff;
+--ultra-violet: #6F498Fff; */
