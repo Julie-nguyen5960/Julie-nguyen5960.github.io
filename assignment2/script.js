@@ -19,12 +19,15 @@ function updateProgressBar() {
   progressBar.style.width = value + "%";
 }
 // Add other functionalities here
+
+//Despite me implementing the loop function in the HTML file, I think it is nice to have the option to restart the video without needing to complete the entire video. Providing more options for the user allows them to feel freedom and more satisifed with using such website.
 function restartVideo() {
   const video = document.getElementById("custom-video-player");
   video.currentTime = 0; // go back to start
   video.play(); // start playing again
 }
 
+//By adding the increaseVolume function, they can listen in more attentively to the music if they need to relax and have something enjoyable to hear.
 function increaseVolume() {
   const video = document.getElementById("custom-video-player");
   if (video.volume < 1.0) {
@@ -32,6 +35,7 @@ function increaseVolume() {
   }
 }
 
+//I have set up this function in case the user is getting too distracted from how loud the music is, providing them an option to lower the volume to increase focus or put as background music.
 function decreaseVolume() {
   const video = document.getElementById("custom-video-player");
   if (video.volume > 0.0) {
@@ -39,6 +43,7 @@ function decreaseVolume() {
   }
 }
 
+//This function will allow users to save their study goals and have a constant reminder of what tasks should be completed. I was hoping that this will provide guideline to people who struggle to study.
 function saveGoals() {
   const goalsText = document.getElementById("study-goals").value;
   const message = document.getElementById("goal-message");

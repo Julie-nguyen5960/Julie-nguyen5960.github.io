@@ -1,23 +1,24 @@
+/* I decided to change the colour palette of the website based on the video shown, I did this by importing the gif onto a colour palette extractor website and copying its HEX code. By doing this, I encapsulate the sense of serenity in which is applied to the whole website*/
 :root {
   --primary-bg-color: #fcddf9;
   --text-color: #3b3b3b;
-  --main-bg-color: #432D57ff;
+  --main-bg-color: #432d57ff;
   --main-text-color: #ffffff;
-  --main-btn-bg-color: #BB95DBff;
+  --main-btn-bg-color: #bb95dbff;
 }
 
 body,
 
+/* A simple yet elegant font for the header */
 h1 {
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
 }
 
+/*I didn't want to use a harsh black colour for the text so I slightly adjusted how light the black will be, resulting in a dark gray*/
 p {
-color: rgb(34, 34, 34);
-font-size: 17px;
-
-
+  color: rgb(34, 34, 34);
+  font-size: 17px;
 }
 
 ul {
@@ -37,11 +38,13 @@ body {
 }
 
 /* Add additional styles as needed */
+
+/* The main border that surrounds the video to section out the additional text and function of the study goals. I matched HEX code to the colours in the video to ensure that the video looks cohesive with the border whilst the buttons have a contrasting colour compared to the dark purple background+border colour. */
 .p-one {
   border-style: solid;
-  border-color: #6F498Fff;;
+  border-color: #6f498fff;
   width: fit-content;
-  background-color: rgb(124, 81, 160);;
+  background-color: rgb(124, 81, 160);
   margin-top: 20px;
 }
 
@@ -116,6 +119,7 @@ footer {
   width: 100%;
 }
 
+/* A heading for the 'study goals' to effectively communicate what the function below is used for. I used a playful font to convey a fun feeling of entering your study goals, making the task seem less tedious and frustrating. */
 h2 {
   color: rgb(54, 50, 50);
   margin-top: 40px;
@@ -124,6 +128,7 @@ h2 {
   text-align: center;
 }
 
+/*This is the area where users will be able to input their study goals, by using a simple text box that gives creative freedom to its user. Once again, I made the font colour purple to match the website's colour palette. */
 textarea {
   width: 100%;
   height: 150px;
@@ -133,8 +138,10 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
   resize: none;
+  color: #b771d3;
 }
 
+/* This button is intended for users to submit their study goals once they are done typing up the list. Its function is to save these goals and place these goals underneath the button.*/
 button {
   padding: 1px 20px;
   background-color: #764580;
@@ -143,15 +150,16 @@ button {
   cursor: pointer;
 }
 
+/* Changes to a lighter colour to indicate to users that they are hovering over this clickable button. */
 button:hover {
   background-color: #b771d3;
 }
-
+/* 
 #goal-message {
   margin-top: 10px;
   font-style: italic;
   color: rgb(255, 255, 255);
-}
+} */
 
 /* CSS HEX
 --thulian-pink: #C36A90ff;
