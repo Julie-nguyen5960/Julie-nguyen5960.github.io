@@ -1,6 +1,5 @@
 body {
   background-color: #1a120b;
-
   margin: auto;
   max-width: 1000px;
   justify-content: center;
@@ -63,10 +62,9 @@ h1 {
 }
 
 .container::before {
-  content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  background: rgba(0, 0, 0, 0.5); /*dark overlay */
   opacity: 1; /* show by default */
   transition: opacity 0.3s ease;
   z-index: 1;
@@ -75,7 +73,7 @@ h1 {
 .container:hover {
   outline: 4px solid #4e61cd;
   outline-offset: 10px;
-  transform: scale(1.05);
+  transform: scale(1.08);
   transition: 0.3s ease;
   opacity: 0;
 }
