@@ -1,5 +1,5 @@
 body {
-  background-color: #1a120b;
+  background-color: #789cff;
   margin: auto;
   max-width: 1000px;
   justify-content: center;
@@ -31,7 +31,7 @@ h1 {
   text-align: center;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
@@ -59,12 +59,12 @@ h1 {
   transition: transform 0.3ms;
   position: relative;
   overflow: hidden;
-}
+} */
 
 .container::before {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /*dark overlay */
+  background: rgba(75, 196, 190, 0.5); /*dark overlay */
   opacity: 1; /* show by default */
   transition: opacity 0.3s ease;
   z-index: 1;
@@ -76,4 +76,25 @@ h1 {
   transform: scale(1.08);
   transition: 0.3s ease;
   opacity: 0;
+}
+
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container {
+  display: grid;
+  grid-template:
+  'myArea myArea . . .'
+  'myArea myArea . . .';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
