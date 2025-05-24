@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
   background: #333;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Ribeye Marrow", sans-serif;
 }
 
 h2 {
@@ -54,7 +54,7 @@ p {
   outline-offset: 10px;
   transform: scale(1.08);
   transition: 0.3s ease;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .container > div:nth-of-type(1) {
@@ -94,7 +94,7 @@ p {
 }
 
 .bg7 {
-  background: url(pictures/DSC01793.JPG);
+  background: url(pictures/DSC01997.JPG);
 }
 
 .bg8 {
@@ -104,3 +104,5 @@ p {
 .bg9 {
   background: url(pictures/DSC01556.JPG);
 }
+
+/* Grid format tutorial from Traversy Media- Grid Layout with image span (https://www.youtube.com/watch?v=-qOe8lBAChE)*/
